@@ -19,7 +19,6 @@ const publicRoutes = require('./routes/public')
 app.use(publicRoutes)
 
 
-
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
 })
