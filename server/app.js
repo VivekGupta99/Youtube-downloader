@@ -7,9 +7,14 @@ const PORT = 3000
 
 const app = express()
 app.use(express.json())
-app.use(cors())
+app.use(
+  cors({
+    origin: "https://ytdownloader-lime.vercel.app", // Replace with your frontend URL
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    allowedHeaders: "Content-Type, Authorization",
+  })
+)
 
-const User = require("./models/user")
 
 const publicRoutes = require("./routes/public")
 
