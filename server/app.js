@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require('cors');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 // const MONGO_CONNECT = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}mymongoinit.6md0cxy.mongodb.net/smvd?retryWrites=true&w=majority`
 require("dotenv").config()
 const PORT = 3000
