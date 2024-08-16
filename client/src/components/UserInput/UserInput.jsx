@@ -24,7 +24,7 @@ const UserInput = (props) => {
 
     let urls
     if (type === "yt") {
-      urls = "https://youtube-downloader-server-seven.vercel.app/api/v1/yt"
+      urls = "https://yt-downloader-pbu3.onrender.com/api/v1/yt"
     }
     // if (type === "tw") {
     //   urls = "https://successful-seal-nightshirt.cyclic.app/api/v1/tw"
