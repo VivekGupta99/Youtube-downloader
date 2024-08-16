@@ -7,7 +7,7 @@ const Header = (props) => {
     <header className={styles["header"]}>
       <a href="/">
         <h2>
-          <span>YT</span>Downloader
+          Vi<span>do</span>wn{" "}
         </h2>
       </a>
 
